@@ -15,7 +15,7 @@ def printTokens(tokens):
     expressions = ''
     while iterator != len(tokens):
         if tokens[iterator].getType() == TokenType.NUMBER_TOKEN:
-            print "Number:\t\t",
+            print "The Number = \t\t",
             print tokens[iterator].getValue()
             expressions += str(tokens[iterator].getValue()) + ' '
         elif tokens[iterator].getType() == TokenType.OPERATOR_TOKEN:
