@@ -2,8 +2,11 @@
 #Comp 141, Homework 7
 #Python Calculator (calculator.py)
 
-from calcExceptions import CalcExceptions
-import token
+try:
+    from calcExceptions import CalcExceptions
+    import token
+except Exception as e:
+    pass
 
 #Scanner Class
 #Takes in user input and splits into tokens
