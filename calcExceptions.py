@@ -5,7 +5,7 @@
 #Calculator Exceptions
 #Sets message to unidentified if error is unknown or message is empty
 #Sets message to correct error if there is a problem
-class CalcExceptions:
+class CalcExceptions(Exception):
     def __init__(self, message=None):
         if message is None or len(message) == 0:
             self.message = "UNIDENTIFIED ERROR."
