@@ -63,3 +63,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+a = input("Enter number 1")
+b = input("Enter number 2")
+c = a + b
+print(c)
