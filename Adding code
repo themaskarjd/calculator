@@ -1,0 +1,7 @@
+a = input("Enter number 1")
+b = input("Enter number 2")
+c = a+b
+print(c)
+print("Aiza")
+print("24-ST-031")
+print("Software Department")
